@@ -19,7 +19,7 @@ export default function Main() {
       <Container>
         <Walter
           initial={{ rotate: -15 }}
-          animate={{ rotate: 15, scale: 0.8 }}
+          animate={{ rotate: 15 }}
           transition={{
             yoyo: Infinity,
             duration: 1,
